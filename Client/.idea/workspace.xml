@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddbcdc49-ce2c-4fcd-8737-01b9378c0af8" name="Default Changelist" comment="" />
+    <list default="true" id="fec01168-9360-47d6-a774-2af587db1c06" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,10 +11,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1dlyZOgC2xj28OqYRPptLqKRZHv" />
+  <component name="ProjectId" id="1dlyvedu7Y7eBh9h7dGBC12K0AW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Server" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunDashboard">
@@ -32,7 +32,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.aadiosity.escobar.Main" />
-      <module name="Server" />
+      <module name="Client" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -51,11 +51,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ddbcdc49-ce2c-4fcd-8737-01b9378c0af8" name="Default Changelist" comment="" />
-      <created>1593014028825</created>
+      <changelist id="fec01168-9360-47d6-a774-2af587db1c06" name="Default Changelist" comment="" />
+      <created>1593014205438</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1593014028825</updated>
+      <updated>1593014205438</updated>
     </task>
     <servers />
   </component>
