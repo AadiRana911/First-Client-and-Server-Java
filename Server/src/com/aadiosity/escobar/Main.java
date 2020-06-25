@@ -12,14 +12,7 @@ public class Main {
     public static void main(String[] args) {
         try(ServerSocket serverSocket = new ServerSocket(5000)){
             while (true){
-                Socket socket = serverSocket.accept();
-                System.out.println("Client Connected");
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-                PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true);
-                String echoString = bufferedReader.readLine();
-                if (echoString.equalsIgnoreCase("exit"))
-                    break;
-                printWriter.println("Echo from Server: " + echoString);
+                new Echoer(serverSocket.accept()).start();
             }
         }catch (IOException e){
             System.out.println("Error Occurred: " + e.getMessage());
