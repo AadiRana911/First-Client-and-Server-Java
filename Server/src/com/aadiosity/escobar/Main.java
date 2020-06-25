@@ -11,11 +11,11 @@ public class Main {
 
     public static void main(String[] args) {
         try(ServerSocket serverSocket = new ServerSocket(5000)){
-            Socket socket = serverSocket.accept();
-            System.out.println("Client Connected");
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true);
             while (true){
+                Socket socket = serverSocket.accept();
+                System.out.println("Client Connected");
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true);
                 String echoString = bufferedReader.readLine();
                 if (echoString.equalsIgnoreCase("exit"))
                     break;
